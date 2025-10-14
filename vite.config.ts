@@ -11,6 +11,7 @@ export default defineConfig({
       },
     },
   ],
+  base: "./",
   resolve: {
     alias: {
       "react/jsx-runtime": "@remix-run/dom/jsx-runtime",
